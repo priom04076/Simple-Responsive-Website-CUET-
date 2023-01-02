@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUET</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <div class="icons1">
+                    <i class="fa-sharp fa-solid fa-xmark" onclick = "hideMenu()"></i>
+                </div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            
+            <div class="icons2">
+                <i class="fa-solid fa-bars"onclick = "showMenu()"></i>
+
+            </div>
+            
+        </nav>
+
+        <div class="text-box">
+            <h1>Green Heaven in Bangladesh</h1>
+            <p>Chittagong University of Engineering & Technology, commonly referred to as CUET, is a public engineering university in Bangladesh located in Raozan Upazila under Chattogram District.</p>
+            <a href="" class="btn-1">Visit us to learn more</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Coursera Inc. is a U.S.-based massive open online course provider founded in 2012 by Stanford</p>
+        <div class="row">
+            <div class="col">
+                <h3>Intermediate</h3>
+                <p>What is Intermediate Education? Definition of Intermediate Education: A term current in Pakistan to refer to higher secondary education.</p>
+            </div>
+            <div class="col">
+                <h3>Degree</h3>
+                <p>An academic degree is a qualification awarded to students upon successful completion of a course of study in higher education.</p>
+            </div>
+            <div class="col">
+                <h3>Post Graduation</h3>
+                <p>A postgraduate course is typically one year's duration full time or it can take two years to complete part-time</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Chittagong University of Engineering & Technology, commonly referred to as CUET, is a public engineering university in Bangladesh located in Raozan Upazila under Chattogram District.</p>
+        <div class="row">
+            <div class="image-col">
+                <img src="./rsz_101.jpg">
+                <div class="layer">
+                    <h3>Sohid Minar</h3>
+                </div>
+            </div>
+            <div class="image-col">
+                <img src="./rsz_102.jpg">
+                <div class="layer">
+                    <h3>S.K IT Buisness Incubator</h3>
+                </div>
+            </div>
+            <div class="image-col">
+                <img src="./rsz_33.jpg">
+                <div class="layer">
+                    <h3>TSC</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="test-monials">
+        <h1>What Our Studens Says</h1>
+        <p>is a public engineering university in Bangladesh located in Raozan Upazila under</p>
+        <div class="row">
+            <div class="test-col">
+                <img src="./11.jpg" >
+                <div>
+                    <p>The weak system intensified into a depression over the Bay of Bengal on November 10 and further intensified to a cyclonic storm on November 11, being named Gaja.</p>
+                    <h3>Nahid Ferdous Priom</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="test-col">
+                <img src="./12.jpg" >
+                <div>
+                    <p>The weak system intensified into a depression over the Bay of Bengal on November 10 and further intensified to a cyclonic storm on November 11, being named Gaja.</p>
+                    <h3>Mehedi Hasan Shakil</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our Online Courses</h1>
+        <a href="#" class="btn-1">Contact Us</a>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Chittagong University of Engineering & Technology, commonly referred to as CUET</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-heart"></i> Nahid Ferdous Priom</p>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
